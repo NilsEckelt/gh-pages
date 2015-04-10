@@ -15,4 +15,4 @@ What I do now instead:
 "Do you like that?" _show A._ -&gt; When 'yes', you are fine. When 'no', show B.
 Actually, now I'm also have from time to time the discussion about a solution like C, but it became pretty rare.
 
-{% thumbnail /img/Meetings.png 600x300> %}
+![](/img/Meetings.png)
