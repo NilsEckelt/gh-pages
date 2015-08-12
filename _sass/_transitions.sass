@@ -1,0 +1,19 @@
+li
+  opacity: 0
+  -webkit-transition: .25s
+  transition: .25s
+  -webkit-transform: translateY(50px) rotateZ(-16deg) scale(.8)
+  transform: translateY(50px) rotateZ(-16deg) scale(.8)
+  -webkit-transform-origin: 100% 0
+  transform-origin: 100% 0
+  @for $i from 1 to 9
+    &:nth-child(#{$i})
+      -webkit-transition-delay: #{60 * $i }ms
+body.loaded
+  li
+    opacity: 1
+    -webkit-transform: translateY(0) rotateZ(0deg) scale(1)
+    transform: translateY(0) rotateZ(0deg) scale(1)
+  
+  
+  
