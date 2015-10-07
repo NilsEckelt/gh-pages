@@ -27,6 +27,9 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$green: #33dd66;
+$pink: #fd1366;
+
 
 
 // Using media queries with like this:
@@ -50,4 +53,5 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting",
         "decorations",
+        "columns",
         "transitions";

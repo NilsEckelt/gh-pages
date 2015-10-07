@@ -11,4 +11,4 @@ codepen_username: nils
 
 # Build settings
 markdown: kramdown
-gems: [mini_magick]
+#gems: [mini_magick]
