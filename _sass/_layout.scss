@@ -1,8 +1,10 @@
+$cyan: #368;
+
 /**
  * Site header
  */
 .site-header {
-  background-color: #368;
+  background-color: $cyan;
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: 56px;
@@ -101,7 +103,27 @@
 .site-footer {
     border-top: 1px solid $grey-color;
     padding: $spacing-unit 0;
-    background-image: url(/img/stripes.gif);
+    background-color: $cyan;
+}
+
+.contact {
+  color: white;
+  display: block;
+  fill: white;
+  text-align: center;
+}
+
+.fingerprint {
+  font-size: .6em;
+  opacity: .6;
+}
+
+.signature {
+	color: white;
+	fill: white;
+  padding-top: 2em;
+  padding-bottom: 3em;
+	text-align: center;
 }
 
 .footer-heading {
