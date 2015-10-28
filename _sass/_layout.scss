@@ -2,19 +2,22 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+  background-color: #368;
+  border-top: 5px solid $grey-color-dark;
+  border-bottom: 1px solid $grey-color-light;
+  min-height: 56px;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+  // Positioning context for the mobile navigation icon
+  position: relative;
 
-    background-image: url(/img/stripes.gif)
+  //background-image: url(/img/stripes.gif)
 }
 
 .site-title {
   background: url('/img/captain-flat.png') center center no-repeat;
   background-size: 2em;
+  height: 2em;
+  width: 2em;
   font-size: 26px;
   line-height: 56px;
   letter-spacing: -1px;
