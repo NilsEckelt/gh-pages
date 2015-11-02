@@ -101,29 +101,41 @@ $cyan: #368;
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color;
-    padding: $spacing-unit 0;
-    background-color: $cyan;
-}
-
-.contact {
-  color: white;
-  display: block;
-  fill: white;
+  padding: $spacing-unit*2 0;
+  background-color: $cyan;
   text-align: center;
-}
 
-.fingerprint {
-  font-size: .6em;
-  opacity: .6;
-}
+  .column {
+    display: inline-block;
+    padding: 0 1em;
+    width: 30%;
+    &.left {
+      text-align: left;
+    }
+    &.right {
+      text-align: right;
+    }
+  }
 
-.signature {
-	color: white;
-	fill: white;
-  padding-top: 2em;
-  padding-bottom: 3em;
-	text-align: center;
+  .contact {
+    color: white;
+    display: block;
+    fill: white;
+  }
+
+  .fingerprint {
+    font-size: .6em;
+    opacity: .6;
+  }
+
+
+  .signature {
+    color: white;
+    fill: white;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    text-align: center;
+  }
 }
 
 .footer-heading {

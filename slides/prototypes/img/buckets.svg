@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 332.6" style="enable-background:new 0 0 300 332.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D4145A;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'OpenSans-ExtraboldItalic';}
+	.st3{font-size:16px;}
+	.st4{font-family:'OpenSans-Light';}
+	.st5{fill:none;stroke:#D4145A;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="buckets">
+	<rect x="101" y="0" class="st0" width="98" height="98"/>
+	<rect x="101" y="101" class="st0" width="98" height="98"/>
+	<rect x="0" y="101" class="st0" width="98" height="98"/>
+	<rect x="202" y="101" class="st0" width="98" height="98"/>
+	<rect x="101" y="202" class="st0" width="98" height="98"/>
+	<text transform="matrix(1 0 0 1 114.9429 53.4204)" class="st1 st2 st3">Research</text>
+	<text transform="matrix(1 0 0 1 126.3062 322.4059)" class="st0 st4 st3">Design</text>
+	<text transform="matrix(1 0 0 1 17.7623 322.4059)" class="st0 st4 st3">Business</text>
+	<text transform="matrix(1 0 0 1 209.1451 322.4059)" class="st0 st4 st3">Engineering</text>
+	<text transform="matrix(1 0 0 1 106.2046 145.5943)"><tspan x="0" y="0" class="st1 st2 st3">Interaction</tspan><tspan x="18.4" y="19.2" class="st1 st2 st3">Design</tspan></text>
+	<text transform="matrix(1 0 0 1 18.1391 145.5943)"><tspan x="0" y="0" class="st1 st2 st3">Product</tspan><tspan x="-2.7" y="19.2" class="st1 st2 st3">Strategy</tspan></text>
+	<text transform="matrix(1 0 0 1 215.5308 145.5943)"><tspan x="0" y="0" class="st1 st2 st3">Frontend</tspan><tspan x="-10.4" y="19.2" class="st1 st2 st3">Engineering</tspan></text>
+	<text transform="matrix(1 0 0 1 126.7944 250.3045)"><tspan x="0" y="0" class="st1 st2 st3">Visual</tspan><tspan x="-2.2" y="19.2" class="st1 st2 st3">Design</tspan></text>
+	<line class="st5" x1="97.5" y1="307" x2="97.5" y2="326"/>
+	<line class="st5" x1="200.5" y1="307" x2="200.5" y2="326"/>
+</g>
+<g id="honeycomb">
+	<polygon class="st0" points="121,111 91.7,60.5 121,10 179.5,10 208.7,60.5 179.5,111 	"/>
+	<polygon class="st0" points="121,217 91.7,166 121,115 179.5,115 208.7,166 179.5,217 	"/>
+	<polygon class="st0" points="121,323 91.7,272 121,221 179.5,221 208.7,272 179.5,323 	"/>
+	<polygon class="st0" points="212.2,164 183,113.5 212.2,63 270.7,63 300,113.5 270.7,164 	"/>
+	<polygon class="st0" points="212.2,270 183,219 212.2,168 270.7,168 300,219 270.7,270 	"/>
+	<polygon class="st0" points="29.7,164 0.4,113.5 29.7,63 88.2,63 117.4,113.5 88.2,164 	"/>
+	<polygon class="st0" points="29.7,270 0.4,219 29.7,168 88.2,168 117.4,219 88.2,270 	"/>
+	<text transform="matrix(1 0 0 1 125.1821 69)" class="st1 st2 st3">useful</text>
+	<text transform="matrix(1 0 0 1 33.0015 119)" class="st1 st2 st3">useabl</text>
+	<text transform="matrix(1 0 0 1 209.3818 119)" class="st1 st2 st3">disrable</text>
+	<text transform="matrix(1 0 0 1 115.936 172)" class="st1 st2 st3">valuable</text>
+	<text transform="matrix(1 0 0 1 26.3062 225.3333)" class="st1 st2 st3">findable</text>
+	<text transform="matrix(1 0 0 1 200.999 225.3336)" class="st1 st2 st3">accessible</text>
+	<text transform="matrix(1 0 0 1 117.9828 278.0003)" class="st1 st2 st3">credible</text>
+</g>
+</svg>

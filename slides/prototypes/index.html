@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>How prototypes save you time</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Nils Eckelt">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="/slides/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="/slides/reveal.js/css/theme/open.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="/slides/reveal.js/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '/slides/reveal.js/css/print/pdf.css' : '/slides/reveal.js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+<style type="text/css">
+	.st0{fill:#3FA9F5;}
+	.st1{fill:#0071BC;}
+	.st2{fill:#FBB03B;}
+	.st3{fill:#FBB03B;stroke:#000000;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#000000;stroke-linecap:round;stroke-miterlimit:10;}
+	.st5{fill:#ED1E79;}
+	.st6{fill:#ED1C24;}
+	.st7{fill:#ED1C24;stroke:#000000;stroke-miterlimit:10;}
+	.st8{fill:#C1272D;}
+	.st9{fill:#8C6239;}
+	.st10{fill:#FCEE21;}
+	.st11{fill:#93278F;}
+	.st12{fill:#603813;}
+	.st13{stroke:#000000;stroke-linecap:round;stroke-miterlimit:10;}
+	.st14{fill:#FBB03B;stroke:#000000;stroke-miterlimit:10;}
+	.st15{fill:#F7931E;}
+	.st16{fill:#FFFFFF;}
+	.st17{fill:#D4145A;}
+	.st18{font-family:'OpenSans-ExtraboldItalic';}
+	.st19{font-size:16px;}
+	.st20{fill:none;stroke:#D4145A;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Prototypes</h1>
+					<h2>...can save you some work</h2>
+					<h5>And actually make the experience a lot better</h5>
+				</section>
+
+        <section>
+          <h1>Agenda</h1>
+          <ul>
+            <li class="fragment">Introduce myself</li>
+            <li class="fragment">What is experience design</li>
+            <li class="fragment">
+              Prototypes
+              <ul>
+                <li class="fragment">Tools</li>
+                <li class="fragment">Life cycle</li>
+                <li class="fragment">User tests</li>
+              </ul>
+            </li>
+            <li class="fragment">Q&A</li>
+          </ul>
+        </section>
+
+        <section>
+          <section>
+            <h1>Who am I?</h1>
+            <h2>My Name is Nils Eckelt</h2>
+          </section>
+          <section>
+            <h2>I've started as a developer</h2>
+            <svg width="100" height="260" style="transform: scale(3)">
+              <use xlink:href="img/gfx.svg#me-dev" height="100" y="80"></use>
+            </svg>
+            <p>Me.</p>
+          </section>
+
+          <section>
+            <h2>Relationship to user</h2>
+            <svg width="250" height="370" style="transform: scale(2)">
+              <use xlink:href="img/gfx.svg#think" x="60" y="40" style="transform: scale(1.5)"></use>
+
+              <use xlink:href="img/gfx.svg#me-dev" height="100" x="20" y="190"></use>
+              <use xlink:href="img/gfx.svg#baby" height="100" x="110" y="80"></use>
+            </svg>
+            <p>I've thought of the user as un<i>experience</i>d.</p>
+          </section>
+
+          <section>
+            <h2>Other players</h2>
+              <svg width="100" height="100" style="transform: scale(1.5)">
+                <use xlink:href="img/gfx.svg#client" height="100"></use>
+              </svg>
+              <p>But there's the Client, too.</p>
+            <span class="fragment">
+              <svg width="100" height="100" style="transform: scale(1.5)">
+                <use xlink:href="img/gfx.svg#product" height="100"></use></svg>
+              <p>...and think about the product.</p>
+            </span>
+          </section>
+
+          <section>
+            <h2>All them needs to be juggeld</h2>
+            <svg width="400" height="400">
+              <g style="transform: scale(.8)">
+                <use xlink:href="img/gfx.svg#think" x="40" style="transform: scale(3.5)"></use>
+
+                <use xlink:href="img/gfx.svg#fem-dev" height="100" x="140" y="140"></use>
+                <use xlink:href="img/gfx.svg#client" height="100" x="260" y="40"></use>
+                <use xlink:href="img/gfx.svg#baby" height="100" x="340" y="110"></use>
+                <use xlink:href="img/gfx.svg#product" height="100" x="250" y="190"></use>
+
+                <g class="fragment">
+                  <use xlink:href="img/gfx.svg#tension" x="230" y="-110" style="transform: rotate(42deg)"></use>
+                  <use xlink:href="img/gfx.svg#tension" x="360" y="-170" style="transform: rotate(48deg)"></use>
+                  <use xlink:href="img/gfx.svg#tension" x="-190" y="-400" style="transform: rotate(138deg);"></use>
+                  <use xlink:href="img/gfx.svg#tension" x="-30" y="-380" style="transform: rotate(132deg)"></use>
+                </g>
+                <g class="fragment">
+                  <use xlink:href="img/gfx.svg#tension" x="600" y="-250" style="transform: rotate(48deg) scale(.6)"></use>
+                  <use xlink:href="img/gfx.svg#tension" x="650" y="-240" style="transform: rotate(51deg) scale(.6)"></use>
+                </g>
+              </g>
+
+              <use xlink:href="img/gfx.svg#me-ux" height="100" x="10" y="200" style="transform: scale(1.3)"></use>
+            </svg>
+            <p>UX</p>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>What is UX?</h1>
+            <h2>Short for User Experience.</h2>
+          </section>
+
+          <section>
+            <em>Definition</em>
+            <h2>Wikipedia</h2>
+            <blockquote cite="https://de.wikipedia.org/wiki/User_Experience">User Experience spielt eine große Rolle bei der Produkt- und Serviceentwicklung. In vielen Bereichen wird Vitruv als erster Architekt und Designer gesehen der mit den Begriffen Firmitas (Festigkeit), Utilitas (Nützlichkeit, Usability) und Venustas (Schönheit) die Kriterien für das Nutzerlebnis definiert hat, wenn es auch damals noch eher auf Gebäude ausgerichtet war.</blockquote>
+            <p class="source">Wikipedia german</p>
+          </section>
+
+          <section>
+            <em>Definition</em>
+            <h2>Wikipedia</h2>
+            <blockquote cite="https://en.wikipedia.org/wiki/User_experience">User experience includes the practical, experiential, affective, meaningful and valuable aspects of human–computer interaction and product ownership.</blockquote>
+            <p class="source">Wikipedia english</p>
+          </section>
+
+          <section>
+            <em>Definition</em>
+            <h2>User Experience Honeycomb</h2>
+            <svg  width="300" height="330">
+              <use xlink:href="img/gfx.svg#honeycomb" x="8"></use>
+            </svg>
+            <p class="source" title="http://semanticstudios.com/user_experience_design/">Semantic Studios</p>
+          </section>
+
+          <section>
+            <em>Definition</em>
+            <h2>Five Buckets</h2>
+            <svg width="300" height="330">
+              <use xlink:href="img/gfx.svg#buckets" x="8"></use>
+            </svg>
+            <p class="source">ThoughtWorks</p>
+          </section>
+        </section>
+
+			</div>
+
+		</div>
+
+		<script src="/slides/reveal.js/lib/js/head.min.js"></script>
+		<script src="/slides/reveal.js/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: '/slides/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: '/slides/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/slides/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/slides/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: '/slides/reveal.js/plugin/zoom-js/zoom.js', async: true },
+					{ src: '/slides/reveal.js/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
