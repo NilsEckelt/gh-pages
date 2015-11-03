@@ -97,6 +97,7 @@ body {
 .reveal dl,
 .reveal ul {
   display: inline-block;
+  font-weight: 100;
   text-align: left;
   margin: 0 0 0 1em; }
 
@@ -104,13 +105,13 @@ body {
   list-style-type: decimal; }
 
 .reveal ul {
-  list-style-type: disc; }
+  list-style-type: circle; }
 
 .reveal ul ul {
   list-style-type: square; }
 
 .reveal ul ul ul {
-  list-style-type: circle; }
+  list-style-type: disc; }
 
 .reveal ul ul,
 .reveal ul ol,
