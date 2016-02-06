@@ -124,8 +124,10 @@ $cyan: #368;
   }
 
   .fingerprint {
+    display: inline-block;
+    font-family: monospace;
     font-size: .6em;
-    opacity: .6;
+    line-height: 1em;
   }
 
 
