@@ -194,9 +194,10 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
+        fill: $icons;
         height: 16px;
         vertical-align: middle;
+        width: 16px;
 
         path {
             fill: $grey-color;
