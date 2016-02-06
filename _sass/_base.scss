@@ -191,16 +191,13 @@ pre {
  * Icons
  */
 .icon {
+    display: inline-block;
+    fill: $icons;
+    height: 16px;
+    vertical-align: middle;
+    width: 16px;
 
-    > svg {
-        display: inline-block;
-        fill: $icons;
-        height: 16px;
-        vertical-align: middle;
-        width: 16px;
-
-        path {
-            fill: $grey-color;
-        }
+    path {
+        fill: $grey-color;
     }
 }
