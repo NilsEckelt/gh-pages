@@ -193,9 +193,9 @@ pre {
 .icon {
     display: inline-block;
     fill: $icons;
-    height: 16px;
-    vertical-align: middle;
-    width: 16px;
+    height: 1em;
+    vertical-align: baseline;
+    width: 1em;
 
     path {
         fill: $grey-color;
