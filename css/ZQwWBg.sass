@@ -1,0 +1,76 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$font: black
+
+*
+  position: relative
+body
+  margin: 0
+q
+  font-style: italic
+  padding: 1em
+p
+  text-indent: 1em
+  line-height: 1.6em
+h1
+  font-family: Oswald
+  font-size: 8vw
+  margin: 0
+h2
+  line-height: 1.2em
+  font-family: Oswald
+
+.teaser
+  background: url('https://org.de/wp-content/uploads/2012/10/Karibik.jpg') center center no-repeat fixed
+  background-size: cover
+  height: 100vh
+  display: flex
+  align-items: flex-end
+  justify-content: flex-end
+.page
+  width: 80vw
+  margin: 2em auto
+  max-height: 80vh
+article
+  background: inherit
+  color: $font
+  width: 40vw
+  min-width: 18em
+  margin: 2em
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: inherit
+    filter: blur(6px)
+    -webkit-filter: blur(6px)
+    -moz-filter: blur(6px)
+    -o-filter: blur(6px)
+    -ms-filter: blur(6px)
+.white
+  background-color: rgba(255,255,255,.3)
+  padding: 1em
+.columns
+  -webkit-columns: 18em
+  -moz-columns: 18em
+  -o-columns: 18em
+  columns: 18em
+  -webkit-column-gap: 2em
+  -moz-column-gap: 2em
+  -o-column-gap: 2em
+  column-gap: 2em
+  -webkit-column-rule: solid 1px $font
+  -moz-column-rule: solid 1px $font
+  -o-column-rule: solid 1px $font
+  column-rule: solid 1px $font
+  font-family: "Lato"
+  line-height: 1.2em
+  text-align: justify
+  margin: 0
+  orphans: 3
+  widows: 3
