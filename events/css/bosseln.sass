@@ -10,13 +10,22 @@ $font-family: 'Exo', sans-serif
   position: relative
 
 body
-  margin: 2vmin
+  margin: 0
 
-.container
+.page
+  display: flex
+  align-items: flex-end
+  justify-items: flex-end
   font-family: $font-family
+  margin: 2vmin
   background: url('/events/img/ws_Snowy_Forest_Road_Winter_1920x1200.jpg') 40% 70% no-repeat fixed
   background-size: cover
-  min-height: 96vh
+  height: 96vh
+
+.container
+  background: inherit
+  width: 100%
+
 q
   font-style: italic
   padding: 1em
@@ -41,10 +50,9 @@ td
     font-weight: bold
 
 article
+  display: flex
   background: inherit
-  bottom: 0
   color: $font
-  position: absolute
   text-shadow: 0 0 2px black
   width: 100%
   &:before
