@@ -1,0 +1,115 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8"
+
+$font: #f9f9fe
+$font-family: 'Exo', sans-serif
+
+*
+  position: relative
+
+body
+  margin: 2vmin
+
+.container
+  font-family: $font-family
+  background: url('/events/img/ws_Snowy_Forest_Road_Winter_1920x1200.jpg') 40% 70% no-repeat fixed
+  background-size: cover
+  min-height: 96vh
+q
+  font-style: italic
+  padding: 1em
+p
+  line-height: 1.6em
+h1
+  display: inline-block
+  color: $font
+  font-family: $font-family
+  font-size: 8vmax
+  margin: 0
+  padding-left: 16px
+h2
+  line-height: 1.2em
+  font-family: $font-family
+  margin: 0
+table
+  padding: 1em 0
+td
+  vertical-align: top
+  &:first-child
+    font-weight: bold
+
+article
+  background: inherit
+  bottom: 0
+  color: $font
+  position: absolute
+  text-shadow: 0 0 2px black
+  width: 100%
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: inherit
+    filter: blur(6px)
+    -webkit-filter: blur(6px)
+    -moz-filter: blur(6px)
+    -o-filter: blur(6px)
+    -ms-filter: blur(6px)
+.dark
+  background-image: linear-gradient(to bottom, transparent 10%, #6776A0 130%)
+  display: flex
+  justify-content: space-around
+  flex-flow: row wrap
+  align-items: strech
+
+.column
+  display: inline-block
+  padding: 1em 2em 0
+  flex-grow: 1
+
+.columns
+  -webkit-columns: 18em
+  -moz-columns: 18em
+  -o-columns: 18em
+  columns: 18em
+  -webkit-column-gap: 2em
+  -moz-column-gap: 2em
+  -o-column-gap: 2em
+  column-gap: 2em
+  -webkit-column-rule: solid 1px $font
+  -moz-column-rule: solid 1px $font
+  -o-column-rule: solid 1px $font
+  column-rule: solid 1px $font
+  font-family: "Lato"
+  line-height: 1.2em
+  text-align: justify
+  margin: 0
+  orphans: 3
+  widows: 3
+
+.map
+  border: 0
+  left: 10%
+  height: 40vmin
+  width: 40vmin
+
+.zeit
+  background: url(../img/calendar.svg) left .3em/1em no-repeat
+  padding-left: 1.5em
+.s-bahn
+  background: url(../img/s-bahn.svg) left .25em/1em no-repeat
+  padding-left: 1.5em
+
+ul
+  padding: 0
+  list-style: none
+
+.checklist li:before
+  content: "✔︎ "
+.boni li:before
+  content: "✚ "
