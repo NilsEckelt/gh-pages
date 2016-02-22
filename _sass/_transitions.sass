@@ -14,6 +14,22 @@ body.loaded
     opacity: 1
     -webkit-transform: translateY(0) rotateY(0deg) scale(1)
     transform: translateY(0) rotateY(0deg) scale(1)
-  
-  
-  
+
+
+h2 a.post-link
+  position: relative
+  display: inline-block
+h2 a:after
+  color: #5CAAEF
+  content: attr(data-title) " "
+  white-space: nowrap
+  position: absolute
+  top: 0
+  width: 0
+  left: 0
+  overflow: hidden
+  -webkit-transition: all 0.4s linear
+  transition: all 0.4s linear
+
+h2 a:hover:after
+  width: 100%
