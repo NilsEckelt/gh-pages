@@ -19,6 +19,8 @@ body.loaded
 h2 a.post-link
   position: relative
   display: inline-block
+  -webkit-transition: all 0.2s linear
+  transition: all 0.2s linear
 h2 a:after
   color: #5CAAEF
   content: attr(data-title) " "
@@ -33,3 +35,7 @@ h2 a:after
 
 h2 a:hover:after
   width: 100%
+
+h2 a:active
+  -webkit-transform: scale(3)
+  transform: scale(3)

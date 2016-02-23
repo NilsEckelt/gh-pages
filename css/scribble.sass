@@ -1,0 +1,125 @@
+---
+---
+$red: #D12127
+$blue: #5CAAEF
+$font: #313131
+
+// everything
+
+body
+  color: $font
+  background-image: radial-gradient(circle farthest-corner at 45% 45%, #fefefe 50%, #afacaa 150%)
+  font-family: sans-serif
+  margin: 0 2em
+  ul
+    list-style: none
+    padding: 0
+    img
+      width: 100%
+
+// header
+
+.logo
+  background: url('/img/captain-flat.png') center center no-repeat
+  background-size: 10vh
+  display: block
+  height: 10vh
+  width: 10vh
+
+// footer
+
+.site-footer
+  align-items: center
+  height: 10vh
+  > .contact
+    display: inline-block
+    text-align: center
+  fill: $font
+  display: flex
+  margin: auto
+  justify-content: space-around
+  flex-flow: row wrap
+.fingerprint
+  display: inline-block
+  font-family: monospace
+  font-size: .6em
+  line-height: 1em
+
+// links
+
+a
+  color: $red
+  text-decoration: none
+
+a
+  position: relative
+  display: inline-block
+  border-bottom: solid 1.6px transparent
+  -webkit-transition: all 0.2s linear
+  transition: all 0.2s linear
+a:after
+  content: " "
+  border-bottom: solid 1.6px $font
+  position: absolute
+  bottom: 0
+  width: 0
+  left: 0
+  -webkit-transition: all 0.4s cubic-bezier(.17,.67,.34,.99)
+  transition: all 0.4s cubic-bezier(.17,.67,.34,.99)
+
+a:hover:after
+  width: 100%
+
+// posts
+
+.post-list .post a,
+.post-list .post a:hover,
+.post-list .post a:after,
+.post-list .post a:after:hover
+  border: 0
+
+
+.post-list .post a h2
+  display: inline-block
+  border-bottom: solid 2.3px transparent
+  position: relative
+
+.post-list .post a h2:after,
+  content: " "
+  border-bottom: solid 2.3px $font
+  position: absolute
+  bottom: 0
+  width: 0
+  left: 0
+  -webkit-transition: all 0.4s cubic-bezier(.17,.67,.34,.99)
+  transition: all 0.4s cubic-bezier(.17,.67,.34,.99)
+
+.post-list .post a:hover h2:after
+  width: 100%
+
+.post-list .post p,
+.post-list .post .post-meta
+  color: $font
+
+.wrapper > .post
+  -webkit-column-gap: 4em
+  -moz-column-gap: 4em
+  -o-column-gap: 4em
+  column-gap: 4em
+  -webkit-column-width: 25em
+  -moz-column-width: 25em
+  -o-column-width: 25em
+  column-width: 25em
+  orphans: 3
+  overflow-x: scroll
+  widows: 3
+  height: 80vh
+  min-height: 80vh
+  img
+    width: 100%
+
+.post-meta
+  font-family: serif
+  font-size: .8em
+  font-style: italic
+  margin-top: -1.5em
