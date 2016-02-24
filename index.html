@@ -10,11 +10,9 @@ github_username: NilsEckelt
     {% for post in site.posts %}
       <li class="post">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          <h2>
-            {{ post.title }}
-          </h2>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <p>{{ post.content | truncatewords: 40 }}</p>
+          <h2>{{ post.title }}</h2>
+          <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+          <p>{{ post.description || post.content | truncatewords: 40 }}</p>
         </a>
       </li>
     {% endfor %}

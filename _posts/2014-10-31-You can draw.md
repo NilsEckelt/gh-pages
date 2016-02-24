@@ -2,6 +2,7 @@
 title: You can draw, even if you don't know it yet
 layout: post
 published: true
+description: I truely believe that every single one can draw. Just do it.
 ---
 
 Drawing is a skill, not a talent. Artists try to express themselves through art. I'm an illustrator and try to make two-dimensional representations of real world objects. The only art in here is the level of abstraction. Drawing is in us completely naturally. It is like playing, whistling or humming, we just do it. The more we do, the better we get. Do what you like.
@@ -10,7 +11,7 @@ Drawing is a skill, not a talent. Artists try to express themselves through art.
 
 Start simple. You should be able to draw lines. With lines you can draw rectangles. With a kind of understanding we are living in a three-dimensional world, we can make from these rectangles boxes. This is already the tricky part. Another thing is circles. These need some training. It is not a problem to draw ellipses at first. I still do it. You can work that out.
 
-**Tip #1: Don't use erasers. Maybe use pens instead of pencils**  
+**Tip #1: Don't use erasers. Maybe use pens instead of pencils**
 *What ever you do to the paper: Stand straight for what you've done and find a way to make it useful for you. Also you learn a lot faster*
 
 ## Matt the matchstick guy
