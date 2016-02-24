@@ -1,5 +1,6 @@
 ---
 ---
+
 $red: #D12127
 $blue: #5CAAEF
 $font: #313131
@@ -107,7 +108,13 @@ a:hover:before
 .post-list .post .post-meta
   color: $font
 
-.wrapper > .post
+.post-meta
+  font-family: serif
+  font-size: .8em
+  font-style: italic
+  margin-top: -1.5em
+
+.columns
   -webkit-column-gap: 4em
   -moz-column-gap: 4em
   -o-column-gap: 4em
@@ -124,8 +131,4 @@ a:hover:before
   img
     width: 100%
 
-.post-meta
-  font-family: serif
-  font-size: .8em
-  font-style: italic
-  margin-top: -1.5em
+@import 'youtube'
