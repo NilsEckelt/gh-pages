@@ -1,7 +1,7 @@
 # Site settings
 title: nils.ecke.lt
 email: nils@ecke.lt
-description: > 
+description: >
   I am a Developer, an artist and a designer. Bäähm! That's it.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://nils.ecke.lt" # the base hostname & protocol for your site
@@ -11,4 +11,4 @@ codepen_username: nils
 
 # Build settings
 markdown: kramdown
-#gems: [mini_magick]
+gems: [mini_magick, liquid_pluralize, liquid_reading_time]

@@ -11,7 +11,7 @@ github_username: NilsEckelt
       <li class="post">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
           <h2>{{ post.title }}</h2>
-          <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+          <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }} &ndash; {{ post.content | reading_time | pluralize: "minute" }} to read.</div>
           <p>{{ post.description || post.content | truncatewords: 40 }}</p>
         </a>
       </li>
