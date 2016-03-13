@@ -1,0 +1,65 @@
+---
+---
+
+$white: #F7F2F1
+$black: #181A0F
+$cursive: 'Lobster', cursive
+$sans-serif: 'Dosis', sans-serif
+
+body
+  display: flex
+  margin: 0
+
+.beer
+  background: url(../img/food-cold-wood-hand.jpg) top right no-repeat $black
+  background-size: contain
+  color: $white
+  height: 100vh
+  margin: auto
+  padding: 1vh
+  width: 73vh
+
+  .place
+    -webkit-shape-outside: polygon(nonzero, 28.6% 77.45%, 26% 68.8%, 27.75% 59.5%, 40.75% 33.75%, 74.85% 17.5%, 324px 64px, 100% 0%, 100.85% 86.1%, 29.2% 85.65%)
+    shape-outside: polygon(nonzero, 28.6% 77.45%, 26% 68.8%, 27.75% 59.5%, 40.75% 33.75%, 74.85% 17.5%, 324px 64px, 100% 0%, 100.85% 86.1%, 29.2% 85.65%)
+    shape-margin: 20px
+    float: right
+    width: 100%
+    height: 100%
+
+h1, h2, h3
+  font-family: $cursive
+  margin-bottom: 0
+
+p
+  font-family: $sans-serif
+
+$sign-x: 100px
+$sign-y: 55px
+$sign-frames: 39
+$sign-duration: 1.5s
+$sign-delay: .2s
+
+@-webkit-keyframes sign-anim
+  100%
+    background-position: 0 $sign-frames * -$sign-y
+
+@-moz-keyframes sign-anim
+  100%
+    background-position: 0 $sign-frames * -$sign-y
+
+@keyframes sign-anim
+  100%
+    background-position: 0 $sign-frames * -$sign-y
+
+#nils-sign
+  display: inline-block
+  width: $sign-x
+  height: $sign-y
+  background: url(../img/signature-sprites.png) no-repeat
+  background-size: 100% auto
+
+  -moz-animation: sign-anim $sign-duration $sign-delay steps($sign-frames) forwards
+  -o-animation: sign-anim $sign-duration $sign-delay steps($sign-frames) forwards
+  -webkit-animation: sign-anim $sign-duration $sign-delay steps($sign-frames) forwards
+  animation: sign-anim $sign-duration $sign-delay steps($sign-frames) forwards

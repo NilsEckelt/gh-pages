@@ -12,3 +12,7 @@ codepen_username: nils
 # Build settings
 markdown: kramdown
 gems: [mini_magick, liquid_pluralize, liquid_reading_time]
+
+slim:
+  pretty: true
+  format: html5
