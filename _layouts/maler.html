@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="stylesheet" href="{{ "/css/maler.css" | prepend: site.baseurl }}">
+</head>
+<body>
+  <article class="content">
+    {{ content }}
+  </article>
+</body>
+</html>
