@@ -1,8 +1,8 @@
 # Site settings
-title: nils.ecke.lt
+title: ecke.lt
 email: nils@ecke.lt
 description: >
-  I am a Developer, an artist and a designer. Bäähm! That's it.
+  I am a developer ...and a designer.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://nils.ecke.lt" # the base hostname & protocol for your site
 twitter_username: nilseckelt

@@ -1,6 +1,6 @@
 ---
-layout: post-columns
-published: false
+layout: post
+published: true
 description: Some random thoughts about our school system
 language: german
 ---

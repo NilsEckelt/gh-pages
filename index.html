@@ -6,16 +6,18 @@ github_username: NilsEckelt
 
 <div class="home">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li class="post">
+  {% for post in site.posts %}
+    <article class="post-teaser">
+      <span class="post-imagery">
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          <h2>{{ post.title }}</h2>
-          <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }} &ndash; {{ post.content | reading_time | pluralize: "minute" }} to read.</div>
-          <p>{{ post.description || post.content | truncatewords: 40 }}</p>
+          <img class="post-img" src="{{ post.img || img/post.png }}" alt="{{ post.title }}">
         </a>
-      </li>
-    {% endfor %}
-  </ul>
+      </span>
+      <a class="post-data" href="{{ post.url | prepend: site.baseurl }}">
+        <span class="post-title">{{ post.title }}</span>
+        <!--<span class="read-time">{{ post.content | reading_time | pluralize: "minute" }} to read.</span>-->
+      </a>
+    </article>
+  {% endfor %}
 
 </div>

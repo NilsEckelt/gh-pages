@@ -1,6 +1,6 @@
 ---
 title: You can draw, even if you don't know it yet
-layout: post-columns
+layout: post
 published: true
 description: I truely believe that every single one can draw. Just do it.
 ---

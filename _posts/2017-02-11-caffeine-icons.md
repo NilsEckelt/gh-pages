@@ -1,6 +1,7 @@
 ---
-layout: post-columns
+layout: post
 description: caffeine, best small tool, crappy old icons
+img: download/caffeine/active-preview.jpg
 ---
 
 # What to do about crappy icons
@@ -22,7 +23,7 @@ I made my own versions of it
 [![inactive](/download/caffeine/inactive-preview.jpg)](/download/caffeine/inactive@2x.png)
 
 and saved them as [`active@2x.png`](/download/caffeine/active@2x.png) and [`inactive@2x.png`](/download/caffeine/inactive@2x.png) (I doubled the size and because I live in the retina generation were apple calls high-res `@2x` or
-`@3x`, I had to rename the files ¯\\_(ツ)_/¯ )
+`@3x`, I had to rename the files ¯\\\_(ツ)\_/¯ )
 
 Move these files to the resources folder, restart _caffeine_ and voilà
 

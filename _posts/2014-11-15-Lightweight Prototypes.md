@@ -1,8 +1,11 @@
 ---
-title: Web Monday Talk &ndash; Lightweight Prototypes for Mobile Apps
+title: "Talk: Prototyping"
 layout: post
 description: The value of doing prototypes before you even start developing a project or a single feature is mostly underestimated.
+img: img/talk.png
 ---
+
+# Web Monday Talk &ndash; Lightweight Prototypes for Mobile Apps
 
 Yesterday I was invited as a speaker to Web Monday Hamburg. It was awesome.
 

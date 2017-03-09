@@ -1,5 +1,6 @@
 ---
 layout: maler
+img: img/baustelle.jpg
 ---
 
 Der Maler war da
