@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    margin: $spacing-unit;
+    margin: $spacing-unit 0;
     font-family: $base-font-family;
     font-size: 1.2em;
 }
@@ -39,9 +39,10 @@ ul {
 .post-teaser {
     display: flex;
     flex-direction: row;
-    box-shadow: 1px 1px 7px rgba(0,0,0,0.1);
     background-color: white;
-    margin: 1em 0;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    border-bottom: 1px rgba(0,0,0,0.1) solid;
 }
 
 .post-imagery {
