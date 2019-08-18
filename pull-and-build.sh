@@ -25,7 +25,7 @@ date "+%T ☁️ Update repository..." >>${LOG_FILE}
 git pull >>${LOG_FILE}
 
 date "+%T 📚 Update dependencies..." >>${LOG_FILE}
-bundle install >>${LOG_FILE}
+bundle install --path vendor/bundle >>${LOG_FILE}
 
 # use `jekyll build --watch` instead
 date "+ %T 🎡 Building site..." >>${LOG_FILE}
