@@ -1,7 +1,7 @@
 ---
 layout: post
 description: Pets vs Cattle
-img: img/posh.jpg
+img: /slides/pets-vs-cattle/img/Folie1.JPG
 ---
 
 # Pets vs Cattle
