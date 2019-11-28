@@ -3,6 +3,7 @@ layout: post
 published: true
 description: Some random thoughts about our school system
 language: german
+published: false
 ---
 
 Ich sehe unser Schulsystem und die armen Kinder die es durchleben müssen.

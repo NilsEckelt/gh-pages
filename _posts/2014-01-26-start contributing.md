@@ -3,6 +3,7 @@ title: Start contributing
 layout: post
 description: The moment when I decided to start contributing to the web captured as a comic.
 img: img/excitement.png
+published: false
 ---
 
 ![](/img/excitement.png)

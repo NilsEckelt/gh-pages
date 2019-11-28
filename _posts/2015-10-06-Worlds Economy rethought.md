@@ -1,6 +1,7 @@
 ---
 layout: post
 description: Some thoughts about our economy, a base income for everybody and how this could work
+published: false
 ---
 I'm a happy person. What I do for the living is what I would do anyway. It's my hobby. It's fun to me. And getting paid for it should basically just pay my bills.
 
