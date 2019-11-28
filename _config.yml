@@ -4,7 +4,7 @@ email: nils@ecke.lt
 description: >
   I am a developer ...and a designer.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://nils.ecke.lt" # the base hostname & protocol for your site
+url: "http://ecke.lt" # the base hostname & protocol for your site
 twitter_username: nilseckelt
 github_username:  NilsEckelt
 codepen_username: nils
