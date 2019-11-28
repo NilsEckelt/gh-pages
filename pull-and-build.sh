@@ -29,7 +29,7 @@ bundle install --path vendor/bundle >>${LOG_FILE}
 
 # use `jekyll build --watch` instead
 date "+ %T 🎡 Building site..." >>${LOG_FILE}
-jekyll build >>${LOG_FILE} 2>&1
+bundle exec jekyll build >>${LOG_FILE} 2>&1
 if [[ $? -ne 0 ]]; then
     date "+%T 🔥 Build failed!" >>${LOG_FILE}
 else

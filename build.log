@@ -1,0 +1,775 @@
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Freitag, 01. Feb. 2019 - 11:39:13 CET
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+11:39:13 ☁️ Update repository...
+Already up-to-date.
+11:39:15 📚 Update dependencies...
+ 11:39:15 🎡 Building site...
+./pull-and-build.sh: Zeile 32: jekyll: Kommando nicht gefunden.
+11:39:15 🔥 Build failed!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Freitag, 16. Aug. 2019 - 19:20:06 CEST
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+19:20:06 ☁️ Update repository...
+Updating 07450a9..63f3c12
+Fast-forward
+ .github/workflows/jekyll.yml |   17 +++++++++++++++++
+ 1 files changed, 17 insertions(+), 0 deletions(-)
+ create mode 100644 .github/workflows/jekyll.yml
+19:20:10 📚 Update dependencies...
+ 19:20:10 🎡 Building site...
+./pull-and-build.sh: Zeile 32: jekyll: Kommando nicht gefunden.
+19:20:10 🔥 Build failed!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Freitag, 16. Aug. 2019 - 19:22:41 CEST
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+19:22:41 ☁️ Update repository...
+Already up-to-date.
+19:22:43 📚 Update dependencies...
+ 19:22:43 🎡 Building site...
+./pull-and-build.sh: Zeile 32: jekyll: Kommando nicht gefunden.
+19:22:43 🔥 Build failed!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Freitag, 16. Aug. 2019 - 21:03:42 CEST
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:03:42 ☁️ Update repository...
+Already up-to-date.
+21:03:44 📚 Update dependencies...
+Fetching gem metadata from https://rubygems.org/...........
+Fetching public_suffix 2.0.5
+Installing public_suffix 2.0.5
+Fetching addressable 2.5.0
+Installing addressable 2.5.0
+Fetching unicode 0.4.4.2
+Installing unicode 0.4.4.2 with native extensions
+Fetching latex-decode 0.2.2
+Installing latex-decode 0.2.2
+Fetching bibtex-ruby 4.4.3
+Installing bibtex-ruby 4.4.3
+Using bundler 2.0.2
+Fetching namae 0.11.3
+Installing namae 0.11.3
+Fetching citeproc 1.0.5
+Installing citeproc 1.0.5
+Fetching csl 1.4.5
+Installing csl 1.4.5
+Fetching citeproc-ruby 1.1.6
+Installing citeproc-ruby 1.1.6
+Using colorator 1.1.0
+Fetching csl-styles 1.0.1.7
+ 21:04:00 🎡 Building site...
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:87:in `block in materialize': Could not find csl-styles-1.0.1.7 in any of the sources (Bundler::GemNotFound)
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `map!'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `materialize'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:170:in `specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:237:in `specs_for'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:226:in `requested_specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:108:in `block in definition_method'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:20:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler.rb:107:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/lib/jekyll/plugin_manager.rb:50:in `require_from_bundler'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/exe/jekyll:11:in `<top (required)>'
+	from /usr/local/bin/jekyll:22:in `load'
+	from /usr/local/bin/jekyll:22:in `<main>'
+21:04:01 🔥 Build failed!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Freitag, 16. Aug. 2019 - 21:05:41 CEST
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:05:41 ☁️ Update repository...
+Already up-to-date.
+21:05:43 📚 Update dependencies...
+Fetching gem metadata from https://rubygems.org/........... 21:05:48 🎡 Building site...
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:87:in `block in materialize': Could not find csl-styles-1.0.1.7 in any of the sources (Bundler::GemNotFound)
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `map!'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `materialize'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:170:in `specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:237:in `specs_for'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:226:in `requested_specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:108:in `block in definition_method'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:20:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler.rb:107:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/lib/jekyll/plugin_manager.rb:50:in `require_from_bundler'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/exe/jekyll:11:in `<top (required)>'
+	from /usr/local/bin/jekyll:22:in `load'
+	from /usr/local/bin/jekyll:22:in `<main>'
+21:05:49 🔥 Build failed!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Freitag, 16. Aug. 2019 - 21:06:11 CEST
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:06:11 ☁️ Update repository...
+21:06:26 📚 Update dependencies...
+Fetching gem metadata from https://rubygems.org/...........
+Using public_suffix 2.0.5
+Using addressable 2.5.0
+Using unicode 0.4.4.2
+Using latex-decode 0.2.2
+Using bibtex-ruby 4.4.3
+Using bundler 2.0.2
+Using namae 0.11.3
+Using citeproc 1.0.5
+Using csl 1.4.5
+Using citeproc-ruby 1.1.6
+Using colorator 1.1.0
+Fetching csl-styles 1.0.1.7
+ 21:09:37 🎡 Building site...
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:87:in `block in materialize': Could not find csl-styles-1.0.1.7 in any of the sources (Bundler::GemNotFound)
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `map!'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `materialize'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:170:in `specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:237:in `specs_for'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:226:in `requested_specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:108:in `block in definition_method'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:20:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler.rb:107:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/lib/jekyll/plugin_manager.rb:50:in `require_from_bundler'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/exe/jekyll:11:in `<top (required)>'
+	from /usr/local/bin/jekyll:22:in `load'
+	from /usr/local/bin/jekyll:22:in `<main>'
+21:09:39 🔥 Build failed!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Freitag, 16. Aug. 2019 - 21:09:52 CEST
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:09:52 ☁️ Update repository...
+Already up-to-date.
+21:09:54 📚 Update dependencies...
+Fetching gem metadata from https://rubygems.org/...........
+Using public_suffix 2.0.5
+Using addressable 2.5.0
+Using unicode 0.4.4.2
+Using latex-decode 0.2.2
+Using bibtex-ruby 4.4.3
+Using bundler 2.0.2
+Using namae 0.11.3
+Using citeproc 1.0.5
+Using csl 1.4.5
+Using citeproc-ruby 1.1.6
+Using colorator 1.1.0
+Fetching csl-styles 1.0.1.7
+Installing csl-styles 1.0.1.7
+Fetching ffi 1.9.17
+Installing ffi 1.9.17 with native extensions
+Using forwardable-extended 2.6.0
+Fetching sass 3.4.23
+Installing sass 3.4.23
+Fetching jekyll-sass-converter 1.5.0
+Installing jekyll-sass-converter 1.5.0
+Fetching rb-fsevent 0.9.8
+Installing rb-fsevent 0.9.8
+Fetching rb-inotify 0.9.8
+Installing rb-inotify 0.9.8
+Fetching listen 3.0.8
+Installing listen 3.0.8
+Fetching jekyll-watch 1.5.0
+Installing jekyll-watch 1.5.0
+Fetching kramdown 1.13.2
+Installing kramdown 1.13.2
+Fetching liquid 3.0.6
+Installing liquid 3.0.6
+Using mercenary 0.3.6
+Fetching pathutil 0.14.0
+Installing pathutil 0.14.0
+Fetching rouge 1.11.1
+Installing rouge 1.11.1
+Fetching safe_yaml 1.0.4
+Installing safe_yaml 1.0.4
+Fetching jekyll 3.4.0
+Installing jekyll 3.4.0
+Fetching jekyll-scholar 5.9.1
+Installing jekyll-scholar 5.9.1
+Fetching liquid_pluralize 1.0.2
+Installing liquid_pluralize 1.0.2
+Fetching mini_portile2 2.1.0
+Installing mini_portile2 2.1.0
+Fetching nokogiri 1.7.0.1
+Installing nokogiri 1.7.0.1 with native extensions
+ 21:10:22 🎡 Building site...
+WARN: Unresolved specs during Gem::Specification.reset:
+      listen (~> 3.0)
+      rouge (< 4, >= 1.7)
+      rb-fsevent (>= 0.9.4, ~> 0.9)
+      rb-inotify (>= 0.9.7, ~> 0.9)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:87:in `block in materialize': Could not find nokogiri-1.7.0.1 in any of the sources (Bundler::GemNotFound)
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `map!'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `materialize'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:170:in `specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:237:in `specs_for'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:226:in `requested_specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:108:in `block in definition_method'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:20:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler.rb:107:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/lib/jekyll/plugin_manager.rb:50:in `require_from_bundler'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/exe/jekyll:11:in `<top (required)>'
+	from /usr/local/bin/jekyll:22:in `load'
+	from /usr/local/bin/jekyll:22:in `<main>'
+21:10:25 🔥 Build failed!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Freitag, 16. Aug. 2019 - 21:13:08 CEST
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:13:08 ☁️ Update repository...
+21:13:09 📚 Update dependencies...
+Fetching gem metadata from https://rubygems.org/...........
+Using public_suffix 2.0.5
+Using addressable 2.5.0
+Using unicode 0.4.4.2
+Using latex-decode 0.2.2
+Using bibtex-ruby 4.4.3
+Using bundler 2.0.2
+Using namae 0.11.3
+Using citeproc 1.0.5
+Using csl 1.4.5
+Using citeproc-ruby 1.1.6
+Using colorator 1.1.0
+Using csl-styles 1.0.1.7
+Using ffi 1.9.17
+Using forwardable-extended 2.6.0
+Using sass 3.4.23
+Using jekyll-sass-converter 1.5.0
+Using rb-fsevent 0.9.8
+Using rb-inotify 0.9.8
+Using listen 3.0.8
+Using jekyll-watch 1.5.0
+Using kramdown 1.13.2
+Using liquid 3.0.6
+Using mercenary 0.3.6
+Using pathutil 0.14.0
+Using rouge 1.11.1
+Using safe_yaml 1.0.4
+Using jekyll 3.4.0
+Using jekyll-scholar 5.9.1
+Using liquid_pluralize 1.0.2
+Using mini_portile2 2.1.0
+Fetching nokogiri 1.7.0.1
+ 21:13:24 🎡 Building site...
+WARN: Unresolved specs during Gem::Specification.reset:
+      listen (~> 3.0)
+      rouge (< 4, >= 1.7)
+      rb-fsevent (>= 0.9.4, ~> 0.9)
+      rb-inotify (>= 0.9.7, ~> 0.9)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:87:in `block in materialize': Could not find nokogiri-1.7.0.1 in any of the sources (Bundler::GemNotFound)
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `map!'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `materialize'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:170:in `specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:237:in `specs_for'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:226:in `requested_specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:108:in `block in definition_method'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:20:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler.rb:107:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/lib/jekyll/plugin_manager.rb:50:in `require_from_bundler'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/exe/jekyll:11:in `<top (required)>'
+	from /usr/local/bin/jekyll:22:in `load'
+	from /usr/local/bin/jekyll:22:in `<main>'
+21:13:26 🔥 Build failed!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Freitag, 16. Aug. 2019 - 21:15:40 CEST
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:15:40 ☁️ Update repository...
+Already up-to-date.
+21:15:41 📚 Update dependencies...
+Fetching gem metadata from https://rubygems.org/........... 21:15:45 🎡 Building site...
+WARN: Unresolved specs during Gem::Specification.reset:
+      listen (~> 3.0)
+      rouge (< 4, >= 1.7)
+      rb-fsevent (>= 0.9.4, ~> 0.9)
+      rb-inotify (>= 0.9.7, ~> 0.9)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:87:in `block in materialize': Could not find public_suffix-2.0.5 in any of the sources (Bundler::GemNotFound)
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `map!'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `materialize'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:170:in `specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:237:in `specs_for'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:226:in `requested_specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:108:in `block in definition_method'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:20:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler.rb:107:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/lib/jekyll/plugin_manager.rb:50:in `require_from_bundler'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/exe/jekyll:11:in `<top (required)>'
+	from /usr/local/bin/jekyll:22:in `load'
+	from /usr/local/bin/jekyll:22:in `<main>'
+21:15:48 🔥 Build failed!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Freitag, 16. Aug. 2019 - 21:15:59 CEST
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:15:59 ☁️ Update repository...
+21:16:00 📚 Update dependencies...
+Fetching gem metadata from https://rubygems.org/...........
+ 21:16:05 🎡 Building site...
+WARN: Unresolved specs during Gem::Specification.reset:
+      listen (~> 3.0)
+      rouge (< 4, >= 1.7)
+      rb-fsevent (>= 0.9.4, ~> 0.9)
+      rb-inotify (>= 0.9.7, ~> 0.9)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:87:in `block in materialize': Could not find public_suffix-2.0.5 in any of the sources (Bundler::GemNotFound)
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `map!'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:81:in `materialize'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:170:in `specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:237:in `specs_for'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/definition.rb:226:in `requested_specs'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:108:in `block in definition_method'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:20:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler.rb:107:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/lib/jekyll/plugin_manager.rb:50:in `require_from_bundler'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/exe/jekyll:11:in `<top (required)>'
+	from /usr/local/bin/jekyll:22:in `load'
+	from /usr/local/bin/jekyll:22:in `<main>'
+21:16:08 🔥 Build failed!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Mittwoch, 21. Aug. 2019 - 21:19:40 CEST
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+21:19:40 ☁️ Update repository...
+Already up-to-date.
+21:19:42 📚 Update dependencies...
+Using public_suffix 2.0.5
+Using addressable 2.5.0
+Using unicode 0.4.4.2
+Using latex-decode 0.2.2
+Using bibtex-ruby 4.4.3
+Using bundler 2.0.2
+Using namae 0.11.3
+Using citeproc 1.0.5
+Using csl 1.4.5
+Using citeproc-ruby 1.1.6
+Using colorator 1.1.0
+Using csl-styles 1.0.1.7
+Using ffi 1.9.17
+Using forwardable-extended 2.6.0
+Using sass 3.4.23
+Using jekyll-sass-converter 1.5.0
+Using rb-fsevent 0.9.8
+Using rb-inotify 0.9.8
+Using listen 3.0.8
+Using jekyll-watch 1.5.0
+Using kramdown 1.13.2
+Using liquid 3.0.6
+Using mercenary 0.3.6
+Using pathutil 0.14.0
+Using rouge 1.11.1
+Using safe_yaml 1.0.4
+Using jekyll 3.4.0
+Using jekyll-scholar 5.9.1
+Using liquid_pluralize 1.0.2
+Using mini_portile2 2.1.0
+Using nokogiri 1.7.0.1
+Using liquid_reading_time 1.1.2
+Using mini_magick 4.6.0
+Bundle complete! 5 Gemfile dependencies, 33 gems now installed.
+Bundled gems are installed into `./vendor/bundle`
+ 21:19:46 🎡 Building site...
+WARN: Unresolved specs during Gem::Specification.reset:
+      listen (~> 3.0)
+      rouge (< 4, >= 1.7)
+      rb-fsevent (>= 0.9.4, ~> 0.9)
+      rb-inotify (>= 0.9.7, ~> 0.9)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:319:in `check_for_activated_spec!': You have already activated public_suffix 3.1.1, but your Gemfile requires public_suffix 2.0.5. Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:31:in `block in setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:148:in `each'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:148:in `each'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:26:in `map'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:26:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler.rb:107:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/lib/jekyll/plugin_manager.rb:50:in `require_from_bundler'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/exe/jekyll:11:in `<top (required)>'
+	from /usr/local/bin/jekyll:22:in `load'
+	from /usr/local/bin/jekyll:22:in `<main>'
+21:19:48 🔥 Build failed!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Montag, 18. Nov. 2019 - 09:10:25 CET
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+09:10:25 ☁️ Update repository...
+Merge made by recursive.
+ slides/pets-vs-cattle/img/Folie1.JPG  |  Bin 0 -> 236241 bytes
+ slides/pets-vs-cattle/img/Folie10.JPG |  Bin 0 -> 125020 bytes
+ slides/pets-vs-cattle/img/Folie11.JPG |  Bin 0 -> 70654 bytes
+ slides/pets-vs-cattle/img/Folie12.JPG |  Bin 0 -> 73362 bytes
+ slides/pets-vs-cattle/img/Folie13.JPG |  Bin 0 -> 211605 bytes
+ slides/pets-vs-cattle/img/Folie14.JPG |  Bin 0 -> 216246 bytes
+ slides/pets-vs-cattle/img/Folie15.JPG |  Bin 0 -> 201581 bytes
+ slides/pets-vs-cattle/img/Folie16.JPG |  Bin 0 -> 216158 bytes
+ slides/pets-vs-cattle/img/Folie17.JPG |  Bin 0 -> 210502 bytes
+ slides/pets-vs-cattle/img/Folie18.JPG |  Bin 0 -> 215023 bytes
+ slides/pets-vs-cattle/img/Folie19.JPG |  Bin 0 -> 192216 bytes
+ slides/pets-vs-cattle/img/Folie2.JPG  |  Bin 0 -> 208109 bytes
+ slides/pets-vs-cattle/img/Folie20.JPG |  Bin 0 -> 239409 bytes
+ slides/pets-vs-cattle/img/Folie21.JPG |  Bin 0 -> 94715 bytes
+ slides/pets-vs-cattle/img/Folie22.JPG |  Bin 0 -> 108355 bytes
+ slides/pets-vs-cattle/img/Folie23.JPG |  Bin 0 -> 129713 bytes
+ slides/pets-vs-cattle/img/Folie24.JPG |  Bin 0 -> 240450 bytes
+ slides/pets-vs-cattle/img/Folie3.JPG  |  Bin 0 -> 201378 bytes
+ slides/pets-vs-cattle/img/Folie4.JPG  |  Bin 0 -> 284180 bytes
+ slides/pets-vs-cattle/img/Folie5.JPG  |  Bin 0 -> 277737 bytes
+ slides/pets-vs-cattle/img/Folie6.JPG  |  Bin 0 -> 218218 bytes
+ slides/pets-vs-cattle/img/Folie7.JPG  |  Bin 0 -> 218931 bytes
+ slides/pets-vs-cattle/img/Folie8.JPG  |  Bin 0 -> 320557 bytes
+ slides/pets-vs-cattle/img/Folie9.JPG  |  Bin 0 -> 106496 bytes
+ slides/pets-vs-cattle/index.html      |  139 +++++++++++++++++++++++++++++++++
+ 25 files changed, 139 insertions(+), 0 deletions(-)
+ create mode 100644 slides/pets-vs-cattle/img/Folie1.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie10.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie11.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie12.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie13.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie14.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie15.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie16.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie17.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie18.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie19.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie2.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie20.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie21.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie22.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie23.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie24.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie3.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie4.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie5.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie6.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie7.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie8.JPG
+ create mode 100644 slides/pets-vs-cattle/img/Folie9.JPG
+ create mode 100644 slides/pets-vs-cattle/index.html
+09:10:28 📚 Update dependencies...
+Using public_suffix 2.0.5
+Using addressable 2.5.0
+Using unicode 0.4.4.2
+Using latex-decode 0.2.2
+Using bibtex-ruby 4.4.3
+Using bundler 2.0.2
+Using namae 0.11.3
+Using citeproc 1.0.5
+Using csl 1.4.5
+Using citeproc-ruby 1.1.6
+Using colorator 1.1.0
+Using csl-styles 1.0.1.7
+Using ffi 1.9.17
+Using forwardable-extended 2.6.0
+Using sass 3.4.23
+Using jekyll-sass-converter 1.5.0
+Using rb-fsevent 0.9.8
+Using rb-inotify 0.9.8
+Using listen 3.0.8
+Using jekyll-watch 1.5.0
+Using kramdown 1.13.2
+Using liquid 3.0.6
+Using mercenary 0.3.6
+Using pathutil 0.14.0
+Using rouge 1.11.1
+Using safe_yaml 1.0.4
+Using jekyll 3.4.0
+Using jekyll-scholar 5.9.1
+Using liquid_pluralize 1.0.2
+Using mini_portile2 2.1.0
+Using nokogiri 1.7.0.1
+Using liquid_reading_time 1.1.2
+Using mini_magick 4.6.0
+Bundle complete! 5 Gemfile dependencies, 33 gems now installed.
+Bundled gems are installed into `./vendor/bundle`
+ 09:10:28 🎡 Building site...
+WARN: Unresolved specs during Gem::Specification.reset:
+      listen (~> 3.0)
+      rouge (< 4, >= 1.7)
+      rb-fsevent (>= 0.9.4, ~> 0.9)
+      rb-inotify (>= 0.9.7, ~> 0.9)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:319:in `check_for_activated_spec!': You have already activated public_suffix 3.1.1, but your Gemfile requires public_suffix 2.0.5. Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:31:in `block in setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:148:in `each'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:148:in `each'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:26:in `map'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:26:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler.rb:107:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/lib/jekyll/plugin_manager.rb:50:in `require_from_bundler'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/exe/jekyll:11:in `<top (required)>'
+	from /usr/local/bin/jekyll:22:in `load'
+	from /usr/local/bin/jekyll:22:in `<main>'
+09:10:30 🔥 Build failed!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Montag, 18. Nov. 2019 - 13:12:59 CET
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+13:12:59 ☁️ Update repository...
+Merge made by recursive.
+ _posts/2019-11-18+last+day+at+work.md |    9 +++++++++
+ 1 files changed, 9 insertions(+), 0 deletions(-)
+ create mode 100644 _posts/2019-11-18+last+day+at+work.md
+13:13:00 📚 Update dependencies...
+Using public_suffix 2.0.5
+Using addressable 2.5.0
+Using unicode 0.4.4.2
+Using latex-decode 0.2.2
+Using bibtex-ruby 4.4.3
+Using bundler 2.0.2
+Using namae 0.11.3
+Using citeproc 1.0.5
+Using csl 1.4.5
+Using citeproc-ruby 1.1.6
+Using colorator 1.1.0
+Using csl-styles 1.0.1.7
+Using ffi 1.9.17
+Using forwardable-extended 2.6.0
+Using sass 3.4.23
+Using jekyll-sass-converter 1.5.0
+Using rb-fsevent 0.9.8
+Using rb-inotify 0.9.8
+Using listen 3.0.8
+Using jekyll-watch 1.5.0
+Using kramdown 1.13.2
+Using liquid 3.0.6
+Using mercenary 0.3.6
+Using pathutil 0.14.0
+Using rouge 1.11.1
+Using safe_yaml 1.0.4
+Using jekyll 3.4.0
+Using jekyll-scholar 5.9.1
+Using liquid_pluralize 1.0.2
+Using mini_portile2 2.1.0
+Using nokogiri 1.7.0.1
+Using liquid_reading_time 1.1.2
+Using mini_magick 4.6.0
+Bundle complete! 5 Gemfile dependencies, 33 gems now installed.
+Bundled gems are installed into `./vendor/bundle`
+ 13:13:01 🎡 Building site...
+WARN: Unresolved specs during Gem::Specification.reset:
+      listen (~> 3.0)
+      rouge (< 4, >= 1.7)
+      rb-fsevent (>= 0.9.4, ~> 0.9)
+      rb-inotify (>= 0.9.7, ~> 0.9)
+WARN: Clearing out unresolved specs.
+Please report a bug if this causes problems.
+/usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:319:in `check_for_activated_spec!': You have already activated public_suffix 3.1.1, but your Gemfile requires public_suffix 2.0.5. Prepending `bundle exec` to your command may solve this. (Gem::LoadError)
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:31:in `block in setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:148:in `each'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/spec_set.rb:148:in `each'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:26:in `map'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler/runtime.rb:26:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/bundler-2.0.2/lib/bundler.rb:107:in `setup'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/lib/jekyll/plugin_manager.rb:50:in `require_from_bundler'
+	from /usr/local/lib/ruby/gems/2.3.0/gems/jekyll-3.8.6/exe/jekyll:11:in `<top (required)>'
+	from /usr/local/bin/jekyll:22:in `load'
+	from /usr/local/bin/jekyll:22:in `<main>'
+13:13:02 🔥 Build failed!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Donnerstag, 28. Nov. 2019 - 05:22:53 CET
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+05:22:53 ☁️ Update repository...
+Already up-to-date.
+05:22:54 📚 Update dependencies...
+Using public_suffix 2.0.5
+Using addressable 2.5.0
+Using unicode 0.4.4.2
+Using latex-decode 0.2.2
+Using bibtex-ruby 4.4.3
+Using bundler 2.0.2
+Using namae 0.11.3
+Using citeproc 1.0.5
+Using csl 1.4.5
+Using citeproc-ruby 1.1.6
+Using colorator 1.1.0
+Using csl-styles 1.0.1.7
+Using ffi 1.9.17
+Using forwardable-extended 2.6.0
+Using sass 3.4.23
+Using jekyll-sass-converter 1.5.0
+Using rb-fsevent 0.9.8
+Using rb-inotify 0.9.8
+Using listen 3.0.8
+Using jekyll-watch 1.5.0
+Using kramdown 1.13.2
+Using liquid 3.0.6
+Using mercenary 0.3.6
+Using pathutil 0.14.0
+Using rouge 1.11.1
+Using safe_yaml 1.0.4
+Using jekyll 3.4.0
+Using jekyll-scholar 5.9.1
+Using liquid_pluralize 1.0.2
+Using mini_portile2 2.1.0
+Using nokogiri 1.7.0.1
+Using liquid_reading_time 1.1.2
+Using mini_magick 4.6.0
+Bundle complete! 5 Gemfile dependencies, 33 gems now installed.
+Bundled gems are installed into `./vendor/bundle`
+ 05:22:55 🎡 Building site...
+Configuration file: /opt/nilseckelt.github.io/_config.yml
+            Source: /opt/nilseckelt.github.io
+       Destination: /opt/nilseckelt.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 7.499 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+05:23:04 🚀 Build successful!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Donnerstag, 28. Nov. 2019 - 05:37:57 CET
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+05:37:57 ☁️ Update repository...
+Already up-to-date.
+05:37:58 📚 Update dependencies...
+Using public_suffix 2.0.5
+Using addressable 2.5.0
+Using unicode 0.4.4.2
+Using latex-decode 0.2.2
+Using bibtex-ruby 4.4.3
+Using bundler 2.0.2
+Using namae 0.11.3
+Using citeproc 1.0.5
+Using csl 1.4.5
+Using citeproc-ruby 1.1.6
+Using colorator 1.1.0
+Using csl-styles 1.0.1.7
+Using ffi 1.9.17
+Using forwardable-extended 2.6.0
+Using sass 3.4.23
+Using jekyll-sass-converter 1.5.0
+Using rb-fsevent 0.9.8
+Using rb-inotify 0.9.8
+Using listen 3.0.8
+Using jekyll-watch 1.5.0
+Using kramdown 1.13.2
+Using liquid 3.0.6
+Using mercenary 0.3.6
+Using pathutil 0.14.0
+Using rouge 1.11.1
+Using safe_yaml 1.0.4
+Using jekyll 3.4.0
+Using jekyll-scholar 5.9.1
+Using liquid_pluralize 1.0.2
+Using mini_portile2 2.1.0
+Using nokogiri 1.7.0.1
+Using liquid_reading_time 1.1.2
+Using mini_magick 4.6.0
+Bundle complete! 5 Gemfile dependencies, 33 gems now installed.
+Bundled gems are installed into `./vendor/bundle`
+ 05:37:58 🎡 Building site...
+Configuration file: /opt/nilseckelt.github.io/_config.yml
+            Source: /opt/nilseckelt.github.io
+       Destination: /opt/nilseckelt.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 7.348 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+05:38:07 🚀 Build successful!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                      Donnerstag, 28. Nov. 2019 - 05:42:36 CET
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+05:42:36 ☁️ Update repository...
+Updating a830f8b..8799598
+Fast-forward
+ _posts/2019-11-19-petsvscattle.md |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+05:42:38 📚 Update dependencies...
+Using public_suffix 2.0.5
+Using addressable 2.5.0
+Using unicode 0.4.4.2
+Using latex-decode 0.2.2
+Using bibtex-ruby 4.4.3
+Using bundler 2.0.2
+Using namae 0.11.3
+Using citeproc 1.0.5
+Using csl 1.4.5
+Using citeproc-ruby 1.1.6
+Using colorator 1.1.0
+Using csl-styles 1.0.1.7
+Using ffi 1.9.17
+Using forwardable-extended 2.6.0
+Using sass 3.4.23
+Using jekyll-sass-converter 1.5.0
+Using rb-fsevent 0.9.8
+Using rb-inotify 0.9.8
+Using listen 3.0.8
+Using jekyll-watch 1.5.0
+Using kramdown 1.13.2
+Using liquid 3.0.6
+Using mercenary 0.3.6
+Using pathutil 0.14.0
+Using rouge 1.11.1
+Using safe_yaml 1.0.4
+Using jekyll 3.4.0
+Using jekyll-scholar 5.9.1
+Using liquid_pluralize 1.0.2
+Using mini_portile2 2.1.0
+Using nokogiri 1.7.0.1
+Using liquid_reading_time 1.1.2
+Using mini_magick 4.6.0
+Bundle complete! 5 Gemfile dependencies, 33 gems now installed.
+Bundled gems are installed into `./vendor/bundle`
+ 05:42:38 🎡 Building site...
+Configuration file: /opt/nilseckelt.github.io/_config.yml
+            Source: /opt/nilseckelt.github.io
+       Destination: /opt/nilseckelt.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 7.4 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+05:42:47 🚀 Build successful!
