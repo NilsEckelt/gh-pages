@@ -22,6 +22,20 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $icons: $grey-color-dark;
 
+@media (prefers-color-scheme: dark) {
+
+    $text-color:       #e5e3e2;
+    $background-color: #221d1d;
+    $brand-color:      #87AF4E;
+    
+    $grey-color:       #888;
+    $grey-color-light: lighten($grey-color, 25%);
+    $grey-color-dark:  darken($grey-color, 25%);
+    
+    $icons: darken($text-color, 10%);
+    
+}
+
 // Width of the content area
 $content-width:    800px;
 
