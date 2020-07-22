@@ -5,6 +5,9 @@
   display: block;
   height: 10vh;
   width: 100%;
+}
+
+.site-header {
   padding-bottom: 2em;
 }
 
@@ -14,6 +17,12 @@
   height: 1em;
   vertical-align: baseline;
   width: 1em;
+}
+
+.page-content {
+  max-width: calc(800px - (20px * 2));
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .fingerprint {
@@ -26,4 +35,15 @@
 footer .contact {
   display: inline-block;
   padding: 2em 1em;
+}
+
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7em 0 4em;
+}
+
+.site-footer h1 {
+  margin: auto;
 }
