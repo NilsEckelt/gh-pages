@@ -1,0 +1,20 @@
+.wrapper {
+  max-width: calc(800px - (20px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    padding: 0;
+  }
+}
+
+.site-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7em 0 4em;
+}

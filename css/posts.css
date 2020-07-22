@@ -1,0 +1,51 @@
+
+.post-teaser {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 0;
+  box-sizing: border-box;
+  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+.post-imagery {
+  background-color: #c8c8c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 90px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.post-img {
+  min-width: 120px;
+  min-height: 90px;
+  border: 0;
+  max-width: 100%;
+}
+
+.post-data {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.post-title {
+  font-size: 1em;
+  line-height: 1.1em;
+  margin: 0;
+  font-family: "Fjalla One", sans-serif;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.read-time {
+  font-size: .7em;
+  color: var(--text-color-shaded);
+  line-height: 1.2em;
+  margin-bottom: -1.2em;
+}

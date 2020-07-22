@@ -1,0 +1,29 @@
+
+.logo {
+  background: url(/img/captain-flat.png) center top no-repeat;
+  background-size: 10vh;
+  display: block;
+  height: 10vh;
+  width: 100%;
+  padding-bottom: 2em;
+}
+
+.icon {
+  display: inline-block;
+  fill: var(--text-color-shaded);
+  height: 1em;
+  vertical-align: baseline;
+  width: 1em;
+}
+
+.fingerprint {
+  display: inline-block;
+  font-family: monospace;
+  font-size: .6em;
+  line-height: 1em;
+}
+
+footer .contact {
+  display: inline-block;
+  padding: 2em 1em;
+}

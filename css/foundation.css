@@ -1,0 +1,33 @@
+:root {
+    --text-color: #221d1d;
+    --text-color-shaded: #221d1d;
+    --symbol-color: #ddd9d7;
+    --background-color: #e5e3e2;
+    --highlight-color: #87AF4E;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+    --text-color:       #e5e3e2;
+    --text-color-shaded: #e5e3e2;
+    --symbol-color: #ddd9d7;
+    --background-color: #221d1d;
+    --highlight-color: #87AF4E;
+  }
+  
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 20px 0;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.2em;
+  transition-duration: 200ms;
+}
+
+a, a:visited {
+  color: currentColor;
+  text-decoration: none;
+}
