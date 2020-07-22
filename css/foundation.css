@@ -35,3 +35,7 @@ a, a:visited {
 img {
   max-width: 100%;
 }
+
+pre {
+  overflow: auto;
+}
