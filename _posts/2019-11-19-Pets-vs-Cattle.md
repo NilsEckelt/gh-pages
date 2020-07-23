@@ -38,7 +38,7 @@ Netzwerkler sagen mir, dass sie virtuell keine Kabel mehr patchen könnten. Aber
 
 Und wer gern manuell deployt, dem sei ein Blick auf _Continues Delivery_ ans Herz gelegt.
 
-Danke für's Lesen,
+Danke für's Lesen,  
 &nbsp;Nils
 
 [Slidedeck (english) hier!](/slides/pets-vs-cattle/)
