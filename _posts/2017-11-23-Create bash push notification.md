@@ -17,13 +17,13 @@ Twenty minutes – hell let's play kicker.
 
 Now we get challenged and are going to play another round. And then, suddenly, my phone notifies me, my task is done and I could continue to work. Nice.
 You know, our handhelds are called _smart_-phones, but where did my phone know the task was done?
-That's where _[IFTTT](http://ifttt.com)_ comes to play. Do you know it? It's a neat service for connecting services and IoT and likely everything.
+That's where [IFTTT](http://ifttt.com) comes to play. Do you know it? It's a neat service for connecting services and IoT and likely everything.
 
 As a developer, I can write my own services. I cannot publish it to you directly, because that is how they make money. That's totally fine. They don't deserve to starve. But as I'm not a company and this tiny tool is not my business, I'm going to share the steps and the code instead.
 ## Step 1
-Login to _IFTTT_. Create an account f necessary.
+Login to IFTTT. Create an account f necessary.
 ## Step 2
-Enable Maker Webhooks. See: https://ifttt.com/maker_webhooks
+Enable Maker Webhooks. See: [https://ifttt.com/maker_webhooks](https://ifttt.com/maker_webhooks)
 Copy the api token. You'll need it.
 ## Step 3
 Create a new _Applet_, choose Webhook as Trigger ('this') and follow the steps
@@ -57,7 +57,7 @@ Use in terminal like this:
 
 I hope you find this useful.
 
-Side note: _IFTTT_ can also help you tracking you time at a specific place. Office, client, pub, ...
+Side note: IFTTT can also help you tracking you time at a specific place. Office, client, pub, ...
 
 Ahoi,  
 &nbsp;Nils
