@@ -2,6 +2,7 @@
 layout: post
 description: last day at work
 img: img/06B9F27C-9701-4CCB-9D7C-82DEFEBE313C.jpeg
+published: false
 ---
 
 # last day at work
