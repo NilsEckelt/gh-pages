@@ -37,7 +37,8 @@
 
 footer .contact {
   display: inline-block;
-  padding: 2em 1em;
+  padding: 1.4em 1em;
+  border-radius: 3em;
 }
 
 .site-footer {
