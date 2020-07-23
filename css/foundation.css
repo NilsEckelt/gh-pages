@@ -29,7 +29,9 @@ body {
 
 a, a:visited {
   color: currentColor;
-  text-decoration: none;
+}
+a:hvoer, a:active {
+  color: var(--highlight-color);
 }
 
 img {

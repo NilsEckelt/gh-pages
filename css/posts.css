@@ -32,6 +32,7 @@
   flex-direction: column;
   justify-content: center;
   flex-grow: 1;
+  text-decoration: none;
 }
 
 .post-title {
