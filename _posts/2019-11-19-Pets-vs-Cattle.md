@@ -6,4 +6,4 @@ img: /slides/pets-vs-cattle/img/Folie1.JPG
 
 # Pets vs Cattle
 
-[slides here](//ecke.lt/slides/pets-vs-cattle)
+[slides here](/slides/pets-vs-cattle/)
