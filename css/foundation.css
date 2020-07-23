@@ -39,3 +39,7 @@ img {
 pre {
   overflow: auto;
 }
+
+h1 {
+  margin-block-start: 0;
+}
