@@ -30,7 +30,8 @@ body {
 a, a:visited {
   color: currentColor;
 }
-a:hvoer, a:active {
+
+a:hover, a:active {
   color: var(--highlight-color);
 }
 
@@ -44,4 +45,8 @@ pre {
 
 h1 {
   margin-block-start: 0;
+}
+
+blockquote {
+  font-style: italics;
 }

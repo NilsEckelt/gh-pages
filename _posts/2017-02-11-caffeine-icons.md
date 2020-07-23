@@ -30,7 +30,8 @@ Move these files to the resources folder, restart _caffeine_ and voilà
 
 ![result](/download/caffeine/result.png)
 
-Thanks for reading.
+Thanks for reading,
+&nbsp;Nils
 
 ---
 Sources:
