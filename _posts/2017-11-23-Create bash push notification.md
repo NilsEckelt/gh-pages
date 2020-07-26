@@ -1,7 +1,7 @@
 ---
 layout: post
 description: Get bash to send you push notifications
-img: img/posh.jpg
+img: /img/post-teaser/push-notification.jpeg
 ---
 
 # When to stop drinking coffee and get back to work?
