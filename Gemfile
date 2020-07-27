@@ -7,3 +7,5 @@ gem 'liquid_reading_time'
 gem 'liquid_pluralize'
 # gem 'jekyll_slim'
 # gem 'slim', github: 'slim-template/slim'
+gem 'unicode_utils'
+gem "bibtex-ruby", ">= 5.1.0"
