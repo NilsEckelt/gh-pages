@@ -2,11 +2,9 @@
 
 ## Installation
 
-Prerequirements: Ruby, Bundler
+Prerequirements: Docker
 ```bash
-bundle
+./build.sh
 ```
 
-## Starting server
-
-run `jekyll serve` to run it. 
+then move content from `_site` to your webservers root directory.
