@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Jekyll build and deploy
 
 on:
   push:
@@ -25,5 +25,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        source: "_site"
-        target: ${{ secrets.DEST_DIR }}
+        source: "_site/*"
+        target: html
