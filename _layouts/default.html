@@ -29,17 +29,4 @@
     {% include footer.html %}
 
   </body>
-	<script type="text/javascript" src="/js/pressure.min.js"></script>
-	<script type="text/javascript">
-		Pressure.set('#logo', {
-			change: function(force, event) {
-				this.style.zIndex = '3';
-				this.style.transformOrigin = '30% 0%';
-				this.style.transform = 'scale(' + ( 1 + force * 3 ) + ')';
-			},
-			end: function () {
-				this.style.transform = 'scale(1)';
-			}
-		});
-	</script>
 </html>
