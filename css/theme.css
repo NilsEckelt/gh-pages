@@ -54,6 +54,9 @@ footer .contact {
   opacity: .2;
 }
 
-.site-footer h1 {
+.site-footer h1.footer-title {
   margin: auto;
+  font-family: "Alegreya", serif;
+  font-style: italic;
+  font-weight: 900;
 }

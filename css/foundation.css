@@ -2,8 +2,8 @@
     --text-color: #221d1d;
     --text-color-shaded: #221d1d;
     --symbol-color: #ddd9d7;
-    --background-color: #e5e3e2;
-    --highlight-color: #87AF4E;
+    --background-color: #f1f0ef;
+    --highlight-color: #0095dc;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,16 +13,41 @@
     --text-color-shaded: #e5e3e2;
     --symbol-color: #ddd9d7;
     --background-color: #221d1d;
-    --highlight-color: #87AF4E;
+    --highlight-color: #dccb00;
   }
   
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 500;
+}
+
+h1 {
+  font-family: 'Alegreya SC', serif;
+  font-weight: 500;
+  font-size: 1.768em;
+  line-height: 0.9em;
+}
+
+h2 {
+  font-size: 1.33em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.17em;
+  font-weight: 500;
 }
 
 body {
   background-color: var(--background-color);
   color: var(--text-color);
   margin: 20px 0;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: 'Alegreya', serif;
   font-size: 1.2em;
   transition-duration: 200ms;
 }
