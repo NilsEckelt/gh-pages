@@ -48,7 +48,9 @@ klingeling() {
 	value2=$1
 	shift 2> /dev/null
 	value3=$1
-	curl -X POST -H "Content-Type: application/json" -d '{"value1":"'$value1'","value2":"'$value2'","value3":"'$valu3'"}' https://maker.ifttt.com/trigger/${event_name}/with/key/${token} > /dev/null 2>&1
+	curl -X POST -H "Content-Type: application/json" \
+		-d '{"value1":"'$value1'","value2":"'$value2'","value3":"'$valu3'"}' \
+		https://maker.ifttt.com/trigger/${event_name}/with/key/${token} > /dev/null 2>&1
 }
 ```
 ## Step 5
