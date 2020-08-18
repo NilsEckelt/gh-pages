@@ -1,3 +1,14 @@
+title: ecke.lt
+email: nils@ecke.lt
+description: >
+  I am a developer ...and a designer.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://ecke.lt" # the base hostname & protocol for your site
+twitter_username: nilseckelt
+github_username:  NilsEckelt
+codepen_username: nils
+
+markdown: kramdown
+
 plugins:
   - jekyll-feed
-  
