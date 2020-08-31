@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <link rel="stylesheet" href="{{ "/css/foundation.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/theme.css" | prepend: site.baseurl }}">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;1,400;1,900&family=Alegreya+SC:wght@500&Alegreya+Sans:wght@500&family=Alegreya+Sans:wght@700&family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="">
+    <div class="page-content">
+      {{ content }}
+    </div>
+  </body>
+</html>
