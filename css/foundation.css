@@ -89,3 +89,12 @@ pre {
 blockquote {
   font-style: italic;
 }
+
+.page-content {
+  max-width: calc(800px - (20px * 2));
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--background-color);
+  margin-bottom: 20em;
+  box-shadow: 0 3em 3em var(--background-color);
+}
