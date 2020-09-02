@@ -1,0 +1,18 @@
+hr {
+    background: black;
+    border: none;
+    font-size: .8em;
+    height: 0.8px;
+    margin: 2em 1em 1em;
+    overflow: visible;
+    text-align: center;
+}
+  
+hr:after {
+  background: var(--background-color);
+  content: "Fußnoten";
+  font-size: 0.8em;
+  padding: 0 0.6em;
+  position: relative;
+  top: -0.5em;
+}
