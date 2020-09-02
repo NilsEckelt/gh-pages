@@ -1,9 +1,16 @@
+
+section {
+  max-width: calc(800px - 2 * 2em);
+  width: calc(100% - 2em);
+  margin: 2em auto;
+}
+
 hr {
     background: black;
     border: none;
     height: 0.8px;
     margin: 2em auto 1em;
-    width: calc(100vw - 2em);
+    width: calc(100% - 2em);
     overflow: visible;
     text-align: center;
 }
@@ -14,4 +21,13 @@ hr:after {
   padding: 0 0.6em;
   position: relative;
   top: -0.75em;
+}
+
+a, a:visited {
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+
+ol {
+  padding: 0 1em;
 }
