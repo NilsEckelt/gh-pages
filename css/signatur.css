@@ -2,7 +2,8 @@ hr {
     background: black;
     border: none;
     height: 0.8px;
-    margin: 2em 1em 1em;
+    margin: 2em auto 1em;
+    width: calc(100vw - 2em);
     overflow: visible;
     text-align: center;
 }
