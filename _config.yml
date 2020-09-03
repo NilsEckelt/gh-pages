@@ -9,6 +9,9 @@ github_username:  NilsEckelt
 codepen_username: nils
 
 markdown: kramdown
+kramdown:
+    smart_quotes: ["sbquo", "lsquo", "bdquo", "ldquo"]
+permalink: /:title/
 
 plugins:
   - jekyll-feed
