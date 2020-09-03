@@ -6,7 +6,7 @@ section {
 }
 
 hr {
-    background: black;
+    background: currentColor;
     border: none;
     height: 0.8px;
     margin: 2em auto 1em;

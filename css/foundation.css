@@ -1,7 +1,6 @@
 :root {
-    --text-color: #221d1d;
-    --text-color-shaded: #221d1d;
-    --symbol-color: #ddd9d7;
+    --text-color: #544f4c;
+    --text-color-shaded: #d5cfcb;
     --background-color: #fffefd;
     --highlight-color: #0095dc;
 }
@@ -9,11 +8,10 @@
 @media (prefers-color-scheme: dark) {
 
   :root {
-    --text-color:       #e5e3e2;
-    --text-color-shaded: #e5e3e2;
-    --symbol-color: #ddd9d7;
-    --background-color: #221d1d;
-    --highlight-color: #dccb00;
+    --text-color:       #d1d0cf;
+    --text-color-shaded: #544f4c;
+    --background-color: #191616;
+    --highlight-color: #32b8e5;
   }
   
 }
@@ -72,9 +70,10 @@ body {
 
 a, a:visited {
   color: currentColor;
+  text-decoration: none;
 }
 
-a:hover, a:active {
+p > a {
   color: var(--highlight-color);
 }
 
