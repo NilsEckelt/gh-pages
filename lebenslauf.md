@@ -72,7 +72,7 @@ Besondere Herausforderung war die Verbindung der Kaffeemaschine mit dem Heimisch
 
 Als IT Consultant habe ich mich als Teil des Teams um die Personalisierungsfunktionen des Onlinehändlers gekümmert. Teil meiner Aufgabe war, die agilen Prozesse schritteweise zu verbessern und verfeinern.
 
-### Softwate Entwicklern @ Satzmedia
+### Software Entwickler @ Satzmedia
 _April 2007 bis Dezember 2012_
 
 #### Kfz-Werkstatt- und Fuhrparks-Zuliefersystem
