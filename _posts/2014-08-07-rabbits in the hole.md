@@ -3,7 +3,7 @@ title: Rabbits in the hole
 layout: post
 description: How to stop a discussion running offtopic in a meeting. One tip I learnt for long running sessions.
 edited: 2016-02-24
-img: img/RabbitHoleCard-Cute.jpg
+img: /img/RabbitHoleCard-Cute.jpg
 ---
 
 When discussion run off topic, everyone in the meeting are allowed to raise a rabbit card to show, they think we are running in too much detail.

@@ -1,6 +1,7 @@
 ---
 layout: post
 description: Selbstbewusst vor Gruppen reden
+img: /img/post-teaser/selbstsicher-sprechen.png
 ---
 
 # Rhetorik -- Selbstsicher sprechen vor Gruppen von Menschen

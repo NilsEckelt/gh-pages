@@ -2,6 +2,7 @@
     --text-color: #544f4c;
     --text-color-shaded: #d5cfcb;
     --background-color: #fffefd;
+    --background-shaded: #F6F7F2;
     --highlight-color: #0095dc;
 }
 
@@ -11,6 +12,7 @@
     --text-color:       #d1d0cf;
     --text-color-shaded: #544f4c;
     --background-color: #191616;
+    --background-color: #292626;
     --highlight-color: #32b8e5;
   }
   
@@ -60,9 +62,9 @@ strong {
 }
 
 body {
-  background-color: var(--background-color);
+  background-color: var(--background-shaded);
   color: var(--text-color);
-  margin: 20px 0;
+  margin: 0;
   font-family: 'Alegreya', serif;
   font-size: 1.2em;
   transition-duration: 200ms;

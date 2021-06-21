@@ -2,7 +2,7 @@
 title: A or B leads to C
 layout: post
 description: Giving two options will lead to discussion about a third option.
-img: img/Meetings.png
+img: /img/Meetings.png
 ---
 
 When you come to a point, that you have multiple stakeholders which have most of the time different opinions, then you will most probably find you self stuck into discussions when you ask or-questions. The simple solution: Do not ask or-questions. You have two similar good solutions for a task and you want to show them.

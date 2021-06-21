@@ -2,7 +2,7 @@
 title: Do not attack the freedom of speech
 layout: post
 description: The attack against Charlie Hebdo touched me. Illustrators are some of my kind. Please leave us alone, Terrorists.
-img: img/kein-angriff-auf-meinungsfreiheit.png
+img: /img/kein-angriff-auf-meinungsfreiheit.png
 published: false
 ---
 
