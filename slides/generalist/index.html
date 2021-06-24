@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=2560, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            margin: 0;
+        }
+        body {
+            background-image: url("./Modern Pulp Texture.png");
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+        }
+        img {
+            position: absolute;
+            mix-blend-mode: multiply;
+        }
+        .titel {
+            left: calc(50% - (710px/2));
+            top: 5%;
+        }
+        .titel2 {
+            top: 10%;
+            left: calc(20% - (382px/2));
+        }
+        .titel3 {          
+            top: 10%;
+            right: calc(20% - (486px/2));
+        }
+        .lernkurve {
+            top: 35%;
+            left: 10%;
+        }
+        .dunning {
+            top: 60%;
+            left: 10%;
+        }
+        .peak {
+            top: calc(60% + 20px);
+            left: calc(10% + 215px);
+        }
+        .gefahr {
+            top: calc(35% + 100px);
+            left: calc(10% + 85px);
+            height: 20%;
+        }
+        .circle {
+            position: absolute;
+            right: 6%;
+            top: 45%;
+            width: 512px;
+        }
+        .dev {
+            top: 50px;
+            left: 180px;
+        }
+        .ux {
+            top: 255px;
+            left: 310px;
+        }
+        .po {
+            top: 330px;
+            left: 100px;
+        }
+        .slice1 {
+            top: 0;
+            left: 0;
+        }
+        .slice2 {
+            top: 208px;
+            left: 171px;
+        }
+        .slice3 {
+            top: 257px;
+            left: 25px;
+        }
+        .wart {
+            top: 160px;
+            left: 160px;
+        }
+        .nutz {
+            top: 385px;
+            left: 300px;
+        }
+        .wirt {
+            top: 420px;
+            left: 30px;
+        }
+        .ich {
+            top: -350px;
+            left: -10px;
+        }
+
+        .steps {
+            position: absolute;
+            top: 35%;
+            left: calc(50% - 280px);
+        }
+
+        .gruende {
+            position: absolute;
+            top: 60%;
+            left: calc(50% - 300px);
+        }
+
+        .grund1 { top: calc(0 * 70px); left: 10px; }
+        .grund2 { top: calc(1 * 70px - 5px); left: 0; }
+        .grund3 { top: calc(2 * 70px); left: 10px; }
+        .grund4 { top: calc(3 * 70px); left: 10px; }
+        .grund5 { top: calc(4 * 70px); left: 10px; }
+        .grund6 { top: calc(5 * 70px); left: 0; }
+        .grund_other { top:  calc(6 * 70px); left: 0; }
+        .grund7 { top:  calc(4 * 70px + 20px); left: 300px; }
+        .grund8 { top:  calc(5 * 70px + 20px); left: 300px; }
+        .grund9 { top:  calc(6 * 70px + 10px); left: 300px; }
+        .neun { top:  70px; left: 500px; }
+        .so { top:  140px; left: 730px; }
+    </style>
+</head>
+<body>
+    <img class="slide1 titel" src="Title.png" alt="">
+    <img class="slide2 titel2" src="Titel - Für Dich.png" alt="">
+    <img class="slide3 titel3" src="Titel-Für's Produkt.png" alt="">
+    <img class="slide4 lernkurve" src="Lernkurve.png" alt="">
+    <img class="slide5 dunning" src="Dunning-Kruger.png" alt="">
+    <img class="slide6 peak" src="Peak.png" alt="">
+    <img class="slide7 gefahr" src="Gefahr.png" alt="">
+
+    <div class="circle">
+        <img class="slide10 dev" src="Dev.png" alt="">
+        <img class="slide11 ux" src="UX_2.png" alt="">
+        <img class="slide12 po" src="Po.png" alt="">
+
+        <img class="slide13 slice1" src="Slice5.png" alt="">
+        <img class="slide14 slice2" src="Slice6.png" alt="">
+        <img class="slide15 slice3" src="Slice7.png" alt="">
+        
+        <img class="slide16 wart" src="Wartbar.png" alt="">
+        <img class="slide17 nutz" src="Nutzbar.png" alt="">
+        <img class="slide18 wirt" src="wirtschaftlich.png" alt="">
+
+        <img class="slide19 ich" src="ich.png" alt="">
+    </div>
+
+    <div class="steps">
+        <img class="slide20 step1" src="Step 1.png" alt="">
+        <img class="slide21 step2" src="Step2.png" alt="">
+        <img class="slide22 step3" src="Step3.png" alt="">
+    </div>
+
+    <div class="gruende">
+        <img class="slide23 grund1" src="Neugier.png" alt="">
+        <img class="slide24 grund2" src="DevOps.png" alt="">
+        <img class="slide25 grund3" src="QA.png" alt="">
+        <img class="slide26 grund4" src="BA.png" alt="">
+        <img class="slide27 grund5" src="Architekt.png" alt="">
+        <img class="slide28 grund6" src="Trial & Error.png" alt="">
+        <img class="slide29 grund_other" src="weitere.png" alt="">
+        <img class="slide30 grund7" src="PO_1.png" alt="">
+        <img class="slide31 grund8" src="Slice13.png" alt="">
+        <img class="slide32 grund9" src="UX.png" alt="">
+        <img class="slide33 neun" src="9.png" alt="">
+        <img class="slide34 so" src="So.png" alt="">
+    </div>
+</body>
+
+<script lang="text/javascript">
+    let index = 0
+    
+    document.onkeydown = checkKey;
+    window.onload = hideall;
+
+    function checkKey(e) {
+
+        e = e || window.event;
+
+        if (e.keyCode == '38') {
+            // up arrow
+        }
+        else if (e.keyCode == '40') {
+            // down arrow
+        }
+        else if (e.keyCode == '37') {
+            el = document.getElementsByClassName("slide" + index)[0];
+            if (el) {
+                el.hidden = true;
+            }
+            index--;
+        }
+        else if (e.keyCode == '39') {
+            index++;
+            el = document.getElementsByClassName("slide" + index)[0];
+            if (el) {
+                el.hidden = false;
+
+                // step hide previous step to prevent overlays
+                if (el.className.includes("step")) {
+                    prev = document.getElementsByClassName("slide" + (index - 1))[0];
+                    if (prev && prev.className.includes("step")) {
+                        prev.hidden = true;
+                    }
+                }
+            }
+        }
+    }
+
+    function hideall() {
+        for (i = 1; i < 100; i++) {
+            el = document.getElementsByClassName("slide" + i)[0];
+            if (el) {
+                el.hidden = true;
+            }
+        }
+        console.log("done")
+    }
+    
+    </script>
+</html>
