@@ -15,6 +15,24 @@
             height: 100vh;
             margin: 0;
         }
+        .left, .right {
+            position: absolute;
+            top: 0;
+            height: 100vh;
+            width: 45vw;
+        }
+        .left {
+            left: 0;
+        }
+        .right {
+            right: 0;
+        }
+        .usage {
+            font-size: 3em;
+            font-family: sans-serif;
+            margin: 40vh auto auto;
+            width: 50vw;
+        }
         img {
             position: absolute;
             mix-blend-mode: multiply;
@@ -53,6 +71,10 @@
             right: 6%;
             top: 45%;
             width: 512px;
+        }
+        .product {
+            top: 220px;
+            left: 205px;
         }
         .dev {
             top: 50px;
@@ -131,6 +153,8 @@
     <img class="slide7 gefahr" src="Gefahr.png" alt="">
 
     <div class="circle">
+        <img class="slide9 product" src="Produkt.png" alt="">
+
         <img class="slide10 dev" src="Dev.png" alt="">
         <img class="slide11 ux" src="UX_2.png" alt="">
         <img class="slide12 po" src="Po.png" alt="">
@@ -166,6 +190,18 @@
         <img class="slide33 neun" src="9.png" alt="">
         <img class="slide34 so" src="So.png" alt="">
     </div>
+
+    <div class="left" onclick="previous()"></div>
+    <div class="right" onclick="next()"></div>
+
+    <div id="usage" class="usage">
+        <dl>
+            <dt>&#8592; / Klick auf der linken Seite</dt>
+            <dd>Verstecke das letzte Element.</dd>
+            <dt>&#8594; / Klick auf der rechten Seite</dt>
+            <dd>Zeige das nächste Element.</dd>
+        </dl> 
+    </div>
 </body>
 
 <script lang="text/javascript">
@@ -173,6 +209,35 @@
     
     document.onkeydown = checkKey;
     window.onload = hideall;
+
+    function next() {
+        index++;
+        el = document.getElementsByClassName("slide" + index)[0];
+        if (el) {
+            el.hidden = false;
+
+            // step hide previous step to prevent overlays
+            if (el.className.includes("step")) {
+                prev = document.getElementsByClassName("slide" + (index - 1))[0];
+                if (prev && prev.className.includes("step")) {
+                    prev.hidden = true;
+                }
+            }
+        }
+        toggleUsage();
+    }
+
+    function previous() {
+        el = document.getElementsByClassName("slide" + index)[0];
+        if (el) {
+            el.hidden = true;
+        }
+        index--;
+        if (index < 0) {
+            index = 0;
+        }
+        toggleUsage();
+    }
 
     function checkKey(e) {
 
@@ -185,26 +250,10 @@
             // down arrow
         }
         else if (e.keyCode == '37') {
-            el = document.getElementsByClassName("slide" + index)[0];
-            if (el) {
-                el.hidden = true;
-            }
-            index--;
+            previous();
         }
         else if (e.keyCode == '39') {
-            index++;
-            el = document.getElementsByClassName("slide" + index)[0];
-            if (el) {
-                el.hidden = false;
-
-                // step hide previous step to prevent overlays
-                if (el.className.includes("step")) {
-                    prev = document.getElementsByClassName("slide" + (index - 1))[0];
-                    if (prev && prev.className.includes("step")) {
-                        prev.hidden = true;
-                    }
-                }
-            }
+            next();
         }
     }
 
@@ -216,6 +265,10 @@
             }
         }
         console.log("done")
+    }
+
+    function toggleUsage() {
+        document.getElementById("usage").hidden = index != 0;
     }
     
     </script>
