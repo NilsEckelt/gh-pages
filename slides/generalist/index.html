@@ -191,8 +191,8 @@
         <img class="slide34 so" src="So.png" alt="">
     </div>
 
-    <div class="left" onclick="previous()"></div>
-    <div class="right" onclick="next()"></div>
+    <div class="left" onclick="previous()" ontouchstart="previous()"></div>
+    <div class="right" onclick="next()" ontouchstart="next()"></div>
 
     <div id="usage" class="usage">
         <dl>
@@ -264,7 +264,6 @@
                 el.hidden = true;
             }
         }
-        console.log("done")
     }
 
     function toggleUsage() {
