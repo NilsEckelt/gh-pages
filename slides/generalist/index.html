@@ -14,6 +14,7 @@
             width: 100vw;
             height: 100vh;
             margin: 0;
+            font-family: sans-serif;
         }
         .left, .right {
             position: absolute;
@@ -29,9 +30,9 @@
         }
         .usage {
             font-size: 3em;
-            font-family: sans-serif;
             margin: 40vh auto auto;
-            width: 50vw;
+            width: 800px;
+            text-align: center;
         }
         img {
             position: absolute;
@@ -49,26 +50,30 @@
             top: 10%;
             right: calc(20% - (486px/2));
         }
-        .lernkurve {
+        .graphs {
+            position: absolute;
+            left: 8%;
             top: 35%;
-            left: 10%;
+        }
+        .lernkurve {
+            top: 0;
+            left: 10px;
         }
         .dunning {
-            top: 60%;
-            left: 10%;
+            top: 400px;
+            left: 0;
         }
         .peak {
-            top: calc(60% + 20px);
-            left: calc(10% + 215px);
+            top: calc(400px + 20px);
+            left: 215px;
         }
         .gefahr {
-            top: calc(35% + 100px);
-            left: calc(10% + 85px);
-            height: 20%;
+            top: 100px;
+            left: 85px;
         }
         .circle {
             position: absolute;
-            right: 6%;
+            right: 10%;
             top: 45%;
             width: 512px;
         }
@@ -141,16 +146,29 @@
         .grund9 { top:  calc(6 * 70px + 10px); left: 300px; }
         .neun { top:  70px; left: 500px; }
         .so { top:  140px; left: 730px; }
+
+        div.contact {
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            bottom: 2%;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
     </style>
 </head>
 <body>
     <img class="slide1 titel" src="Title.png" alt="">
     <img class="slide2 titel2" src="Titel - Für Dich.png" alt="">
     <img class="slide3 titel3" src="Titel-Für's Produkt.png" alt="">
-    <img class="slide4 lernkurve" src="Lernkurve.png" alt="">
-    <img class="slide5 dunning" src="Dunning-Kruger.png" alt="">
-    <img class="slide6 peak" src="Peak.png" alt="">
-    <img class="slide7 gefahr" src="Gefahr.png" alt="">
+
+    <div class="graphs">
+        <img class="slide4 lernkurve" src="Lernkurve.png" alt="">
+        <img class="slide5 dunning" src="Dunning-Kruger.png" alt="">
+        <img class="slide6 peak" src="Peak.png" alt="">
+        <img class="slide7 gefahr" src="Gefahr.png" alt="">
+    </div>
 
     <div class="circle">
         <img class="slide9 product" src="Produkt.png" alt="">
@@ -201,6 +219,10 @@
             <dt>&#8594; / Tapp auf der rechten Seite</dt>
             <dd>Zeige das nächste Element.</dd>
         </dl> 
+    </div>
+
+    <div class="contact">
+        <span class="contact">https://ecke.lt<span class="contact"> &middot; <span class="contact"></span>nils(at)ecke.lt<span class="contact"> &middot; <span class="contact"></span>https://github.com/eckelt<span class="contact"> &middot; <span class="contact"></span>https://codepen.io/nils<span class="contact"> &middot; <span class="contact"></span>@NilsEckelt</span>
     </div>
 </body>
 
